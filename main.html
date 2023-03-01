@@ -43,27 +43,34 @@
 	<input type="password" id="password" required>
 	<br>
 	<button type="submit">Submit</button> -->
-	<form method="post">
-	<label for="name">Name</label>
-	<input type="text" id="name" required>
-	<label for="email">Email</label>
-	<input type="email" id="email" required>
-	<label for="gender">Gender</label>
-	<input type="radio" id="gender" name="gender" value="male" required>male
-	<input type="radio" id="gender" name="gender" value="female" required>female
-	<label for="cars">Car Brands</label>
-	<select id="cars">
-		<option>BMW</option>
+	<form>
+		<label for="name">Name8</label>
+		<input type="text"  id="name" name="name" value="Name" placeholder="Name"><br>
+		<label for="email">Email*</label>
+		<input type="email" id="email" placeholder="Email" required><br>
+		<label for="Gender" id="gender">Gender*</label>
+		 
+		  <input type="radio" id="age1" name="age" value="30" required>
+		  <label for="age1" id="male">Male</label>
+		  <input type="radio" id="age2" name="age" value="60"required>
+		  <label for="age2" id="female">Female</label>  
+		  <input type="radio" id="age3" name="age" value="100"required>
+		  <label for="age3" id="other">Other</label><br>
+		<label for="Car" id="car">Car Brands</label>
+		<select>
+		<option >BMW</option>
 		<option>Audi</option>
-		<option>Merecedez</option>
-	</select>
-	<label for="carage">Car Age</label>
-	<input type="number" id="carage" required>
-	<label for="dop">Date of Purchase</label>
-	<input type="date" id="dop" required>
-	<label for="password">Password</label>
-	<input type="password" id="password" required>
-	<button type="submit">Submit</button>
+		<option>Mercedez</option>
+		</select><br>
+		<label for="Carage" id="age">Car Age*</label>
+		<input type="number" required><br>
+		<label for="dop" id="date1">Date of Purchase(dop)*</label>
+		<input type="date" required><br>
+		<label for="Pass" id="password">Password*</label>
+		<input type="password"><br>
+		<input type="submit">
+		
+	</form>
 	
 </body>
 
